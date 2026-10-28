@@ -39,8 +39,8 @@ Don't change anything else in the project or touch the underlying logic.
 
 ## Reusable techniques learned
 
-- _____
-- _____
+- Naming the exact element to alter preserves the other elements intact.
+- Naming constraints handles situations where users can get frustrated with graceful failure-handling.
 
 ## What broke (and the fix)
 
