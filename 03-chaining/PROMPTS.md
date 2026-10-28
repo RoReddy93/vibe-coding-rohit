@@ -6,28 +6,36 @@
 
 _Each prompt is a reusable step. Chain them: the output of one becomes the input to the next._
 
-## Prompt chain: [name your flow]
+## Prompt chain: Value and retention hardening chain
 
-### Step 1: [purpose]
+### Step 1: Expand: add the two missing screens
 ```
-[prompt text, with {{variables}} for the parts you swap]
-```
-**Expects in:** _____
-**Produces out:** _____
+Build the next phase of this app in a strict sequence:
+1. Add a screen "Value Realization & ROI Report". Match the layout and spacing of the attached Asana screenshot.
+2. Add a screen "Customer Health & Retention Dashboard". Match the data density of the attached Asana screenshot.
+3. Navigation: write the logic so Value Realization & ROI Report links to Customer Health & Retention Dashboard.
 
-### Step 2: [purpose]
+Build these in order so Value Realization & ROI Report is the anchor for Customer Health & Retention Dashboard.
 ```
-[prompt text]
-```
-**Expects in:** _____
-**Produces out:** _____
 
-### Step 3: [purpose]
+### Step 2: Behavior: handle loading, empty and error states
 ```
-[prompt text]
+Apply the following logic constraints to the Value Breakdown flow:
+- Use skeleton screens for the Workflow activity loading state.
+- If no data is present, show the empty state: "No activity yet. Start using the product to capture actitvity".
+- On fetch failure, trigger the error state: "Connection lost. Please refresh the dashboard".
+
+Maintain the same design language throughout and tether all behavior strictly to these rules.
 ```
-**Expects in:** _____
-**Produces out:** _____
+
+### Step 3: Refine: polish one thing on one screen
+```
+The Value Breakdown needs a professional Asana - style polish.
+1. Start by listing the 3 biggest gaps in typography and spacing compared to Asana design system.
+2. Once you've identified those, resize the headers and update the The workflows in workflow activity are in light color - make it dark and legible. to match.
+
+Don't change anything else in the project or touch the underlying logic.
+```
 
 ## Reusable techniques learned
 
