@@ -2,13 +2,15 @@
 
 > Module 6 · Evals & Iteration. Read the analytics, run an iteration sprint, present with evidence.
 
-## What the analytics say
+## What the evidence says
 
-_The numbers from real usage. Put the metric that matters on screen._
+_What real usage showed: numbers if your tool has analytics, counted behaviour if it does not. Put the signal that matters on screen._
 
-- **Primary metric:** _____
-- **What moved:** _____
-- **What didn't:** _____
+- **Primary signal:** Session duration
+- **What moved:** no of page views
+- **What didn't:** Bounces are high which means users are not engaging enough. This could be addressed once invitations are sent to team mates and they accept them. So we need to deepen the features for driving more session duration.
+
+_Analytics snapshot: visitors 7; page views 11; views per visit 1.22; duration 10s; bounce 89%._
 
 ## Iteration sprint
 
@@ -18,7 +20,7 @@ _The numbers from real usage. Put the metric that matters on screen._
 
 ## Peer feedback
 
-_____
+x
 
 ## The recommendation
 
