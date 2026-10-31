@@ -6,7 +6,7 @@
 
 _The working, shareable link that survives real users._
 
-_____
+https://account-risk-rohit-30.rohit-tippani93.chatgpt.site/
 
 ## Data schema
 
@@ -33,4 +33,6 @@ Supabase Auth handles signup and login. Row-level security restricts personal re
 
 _What you threw at it, and what held / broke._
 
-_____
+1. Checked with new email and confirmed empty states
+2. Submitted multiple times and ensured no duplicates are created
+3. Tested UI acknowledgment of internet disconnection or hang
